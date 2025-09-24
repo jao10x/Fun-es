@@ -1,0 +1,9 @@
+def resultadofinal(nota1,nota2):
+    mediafinal = nota1+nota2 / 2
+    print(f"média final: {mediafinal}")
+
+nota1 = float
+ (input("digite a primeira nota"))
+nota2 = float(input("digite a segunda nota"))
+
+media = resultadofinal(nota1,nota2)
