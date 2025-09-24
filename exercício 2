@@ -1,0 +1,12 @@
+def somaSubtracao(valor1,valor2,valor3,valor4,numero):
+    soma = (valor1 + valor2 + valor3 + valor4 - numero)
+    print("O valor final subtraido por 10 é",soma)
+
+valor1 = int(input("digite o primeiro valor:"""))
+valor2 = int(input("digite o segundo valor:"""))
+valor3 = int(input("digite o terceiro valor:"""))
+valor4 = int(input("digite o quarto valor:"""))
+
+numero = 10
+valorfinal = somaSubtracao(valor1,valor2,valor3,valor4,numero)
+(valorfinal)
