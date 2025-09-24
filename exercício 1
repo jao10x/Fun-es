@@ -1,0 +1,8 @@
+def soma(valor1,valor2):
+  return valor1 + valor2
+
+valor1 = int(input("digite o primeiro valor"))
+valor2 = int(input("digite o segundo valor"))
+
+total = soma(valor1,valor2)
+print(total)
