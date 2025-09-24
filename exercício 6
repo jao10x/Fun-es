@@ -1,0 +1,8 @@
+def area(base,altura):
+   return (base * altura) /2
+
+base = float(input("digite o valor da base:"))
+altura = float(input("digite o valor da altura:"))
+
+areafinal = area(base,altura)
+print(f"a área final é: {areafinal}")
