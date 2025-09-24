@@ -1,0 +1,7 @@
+def fah(celcius):
+  return (9 * celcius + 160) / 5
+
+celcius = float(input("digite os graus em celcius:"))
+
+temperaturafinal = fah(celcius)
+print(f"celcius convertidos para Fahrenheit é: {temperaturafinal} ")
