@@ -1,0 +1,12 @@
+def operacoes (valor1,valor2):
+    soma = (valor1 + valor2)
+    subtracao = (valor1 - valor2)
+    divisao =  (valor1 / valor2)
+    multiplicacao = (valor1 * valor2)
+    print(f"a soma é igual a:{soma}1\n a subtraçao é igual a:{subtracao}1\n a divisao é igual a {divisao}1\n a multiplicaçao é igual a {multiplicacao}")
+
+valor1 = int(input("digite o primeiro valor:"""))
+valor2 = int(input("digite o segundo valor:"""))
+
+resultado = operacoes (valor1,valor2)
+print(resultado)
